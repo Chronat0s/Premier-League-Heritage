@@ -79,6 +79,7 @@ ul{
     border-radius: 32px;
     border: 4px solid #3d195b;
     font-size: 32px;
+    text-align: center;
     padding: 10px 20px;
     margin-bottom: 100px;
     animation: fade-up 900ms 700ms backwards;
