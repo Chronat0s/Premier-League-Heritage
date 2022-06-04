@@ -28,7 +28,7 @@ nav{
     padding: 0 20px;
     height: 200px;
     width: 100%;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -55,7 +55,7 @@ nav{
     align-items: center;
     margin: 0 auto;
     width: 100%;
-    max-width: 1400px;
+    max-width: 1200px;
     padding: 20px;
     background-color: lightgreen;
 }
@@ -97,7 +97,7 @@ nav{
     margin: 0 auto;
     padding: 20px;
     width: 100%;
-    max-width: 1400px;
+    max-width: 1200px;
     background-color: rgb(52, 161, 52);
     animation: fade-up 1000ms 800ms backwards;
 }
@@ -116,7 +116,7 @@ nav{
 }
 
 .team__logo--image{
-    width: 100%;
+    width: 80%;
 }
 
 .team__wins, .team__losses, .team__draws, .team__points{
@@ -147,9 +147,9 @@ nav{
      width: 45%;
  }
 
- .teams{
-     margin: 0 20px;
- }
+.team__logo--image{
+    width: 70%;
+}
 
 .nav__container{
     flex-direction: column;
@@ -172,6 +172,8 @@ nav{
         width: 90%;
     }
 
-   
+   .team__logo--image{
+       width: 50%;
+   }
 
 }
