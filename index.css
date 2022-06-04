@@ -1,0 +1,177 @@
+ul{
+    list-style-type: none;
+}
+/* LANDING PAGE */
+@keyframes fade-up{
+    0% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+    animation: fade-up 500ms 300ms backwards;
+}
+
+
+
+.nav__container{
+    background-color: rgb(52, 161, 52);
+    padding: 0 20px;
+    height: 200px;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__logo{
+    height: 100%;
+    animation: fade-up 600ms 400ms backwards;
+}
+
+
+
+.nav__title{
+    font-size: 48px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #3d195b;
+    animation: fade-up 600ms 400ms backwards;
+}
+
+.landing-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1400px;
+    padding: 20px;
+    background-color: lightgreen;
+}
+
+.landing-page__title, .landing-page__sub-title{
+    color:#3d195b;
+    animation: fade-up 700ms 500ms backwards;
+}
+
+.landing-page__title{
+    font-size: 36px;
+}
+
+.landing-page__sub-title{
+    font-size: 32px;
+}
+
+.landing-page__input{
+    background-color: rgb(52, 161, 52);
+    color: #3d195b;
+    border-radius: 32px;
+    border: 4px solid #3d195b;
+    font-size: 32px;
+    padding: 10px 20px;
+    margin-bottom: 100px;
+    animation: fade-up 900ms 700ms backwards;
+}
+
+.landing-page__input:active{
+    border: 4px solid #3d195b;
+}
+
+/* TEAMS */
+#teams{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 1400px;
+    background-color: rgb(52, 161, 52);
+    animation: fade-up 1000ms 800ms backwards;
+}
+
+.team{
+    width: 18%;
+    height: 450px;
+    border: 2px solid #3d195b;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 4px;
+    background-color: silver;
+}
+
+.team__logo--image{
+    width: 100%;
+}
+
+.team__wins, .team__losses, .team__draws, .team__points{
+    font-weight: bold;
+    margin-right: 36px;
+}
+
+.team__wins{
+    color:rgb(52, 161, 52);
+}
+
+.team__losses{
+    color: red;
+}
+
+.team__draws{
+    color: coral;
+}
+
+@media(max-width: 1000px){
+    .team{
+        width: 22%;
+    }
+}
+
+@media (max-width: 768px){
+ .team{
+     width: 45%;
+ }
+
+ .teams{
+     margin: 0 20px;
+ }
+
+.nav__container{
+    flex-direction: column;
+}
+
+.nav__logo{
+    height: 50%;
+}
+
+.nav__title{
+    font-size: 36px;
+}
+
+}
+
+/* IPHONES, SMALL PHONES*/
+
+@media (max-width: 480px){
+    .team{
+        width: 90%;
+    }
+
+   
+
+}
